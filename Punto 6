@@ -1,0 +1,47 @@
+/*Ej 6 Mateo Majlin*/
+#include <stdio.h>
+main()
+{
+	int num=1,i,cont=0,a=1,contnum,primos=0,noprimos=0;
+	while (num != 0){
+	contnum++;
+	printf ("Ingrese numero: ");
+	scanf ("%d",&num);
+	if (num <= 1){
+	if (num == 0)
+	{
+		printf("No es primo\n");
+	}
+	if (num == 1)
+	{
+		printf("No es primo\n");
+	}
+}
+else
+{
+	for (i=0;i<num;i++)
+	{
+		if (num % a == 0)
+		{
+			cont++;
+		}
+		a++;
+	}
+	a = 1;
+	if (cont == 2)
+	{
+		printf("Es primo\n");
+		primos++
+	}
+	else 
+	{
+		printf("No es primo\n");
+		noprimos++;
+	}
+	cont = 0;
+}
+}
+printf("La cantidad de numeros ingresados fue %d \n",contnum-1);
+printf("La cantidad de numeros primos fue %d \n",primos);
+printf("La cantidad de numeros no primos fue %d \n",noprimos);
+}
