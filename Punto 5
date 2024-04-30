@@ -1,0 +1,37 @@
+/*Ej 5 Mateo Majlin*/
+#include<stdio.h>
+main()
+{
+	int num,i,cont=0,a=1;
+	printf ("Ingrese numero: ");
+	scanf ("%d",&num);
+	if (num <= 1){
+	if (num == 0)
+	{
+		printf("No es primo");
+	}
+	if (num == 1)
+	{
+		printf("No es primo");
+	}
+}
+else
+{
+	for (i=0;i<num;i++)
+	{
+		if (num % a == 0)
+		{
+			cont++;
+		}
+		a++;
+	}
+	if (cont == 2)
+	{
+		printf("Es primo");
+	}
+	else 
+	{
+		printf("No es primo");
+	}
+}
+}
