@@ -1,0 +1,25 @@
+#include <stdio.h>
+main()
+{
+	int num,i,cont=0,a=1,contnum,pares=0,impares=0;
+	while (num != 0){
+	printf ("Ingrese numero: ");
+	scanf ("%d",&num);
+	if (num != 0){
+		if (num % 2 == 0)
+		{
+			pares++;
+			printf("Es Par\n");	
+		}
+		else
+		{
+			impares++;
+			printf("Es Impar\n");
+		}
+	contnum++;
+}
+}
+printf("La cantidad de numeros ingresados fue %d \n",contnum);
+printf("La cantidad de numeros pares fue %d \n",pares);
+printf("La cantidad de numeros impares fue %d \n",impares);
+}
